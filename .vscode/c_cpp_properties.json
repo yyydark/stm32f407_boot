@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "boot",
+                "platform/cmsis/core",
+                "platform/driver/inc",
+                "platform/cmsis/device",
+                "driver/led",
+                "driver/led",
+                "driver/delay",
+                "boot/inc",
+                "driver/usart"
+            ],
+            "defines": [
+                "STM32F40_41xxx",
+                "USE_STDPERIPH_DRIVER",
+                "DEBUG"
+            ],
+            "compilerPath": "${workspaceFolder}/tools/toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "linux-gcc-arm",
+            "mergeConfigurations": false,
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
